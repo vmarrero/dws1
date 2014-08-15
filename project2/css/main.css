@@ -1,0 +1,198 @@
+/******************** 
+
+		*** Name: Vanessa Marrero
+		*** Assignment: Project 2
+		*** Class: Designing for Web Standards I
+		*** Date: August 14, 2014
+
+********************/
+
+/******************** MAIN PAGE STYLES ********************/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 11pt;
+	line-height: 250%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-size: 100% auto;
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding: 0px 50px;
+	text-align: left;
+	border: 2px solid #CCCCCC;
+	background-color: #db4699;
+}
+
+#container {
+	padding: 15px;
+	border: 2px solid #CCCCCC;
+	text-align: center;
+	background-color: #0099d8;
+}
+
+#intro, #hist, #modern, #media, #stats, #idioms, #gallery {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	box-shadow: 3px 3px 10px #888888;
+	margin: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#intro {
+	margin-top: 40px;
+}
+
+div p {
+	margin: 20px;
+	text-align: justify;
+	font-weight: normal;
+	font-style: normal;
+}
+
+div p.note {
+	background-color: #FFC200;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 11pt;
+	width: 50%;
+	line-height: 150%;
+}
+
+div ol {
+	text-align: left;
+}
+
+/******************** END MAIN PAGE STYLES ********************/
+
+/******************** MAIN NAV STYLES ********************/
+
+#nav {
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0px auto;
+	padding: 0px;
+	display: block;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 0px;
+	line-height:455%;
+	margin: 0px;
+	text-align: left;
+	width: auto;
+}
+
+#nav a:link {
+	text-decoration: none;
+	color: #888888;
+	line-height:100%;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	margin-right: 5px;
+}
+
+#nav a:visited {
+	color: #888888;
+}
+
+#nav a:hover {
+	color: #FFFFFF;
+	background-color: #DB4699;
+}
+
+#nav a:active {
+	color: #0099D8;
+}
+
+/******************** END MAIN NAV STYLES ********************/
+
+/******************** HEADER STYLES ********************/
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 36pt;
+	line-height: 125%;
+	color: #FFC200;
+	text-align: center;
+	text-shadow: 2px 2px 2px #A37B03;
+}
+
+h2 {
+	font-size: 18pt;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: #00B7B1;
+	padding: 15px;
+}
+
+h3 {
+	font-size: 16pt;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: #68AD00;
+	padding: 15px;
+	width: 50%;
+	border-radius: 0px 25px 25px 0px;
+}
+
+h4 {
+	font-size: 12pt;
+	color: #Ffffff;
+	text-transform: uppercase;
+	background-color: #f26a36;
+	padding: 15px;
+	width: 30%;
+	border-radius: 0px 25px 25px 0px;
+}
+
+/******************** END HEADER STYLES ********************/
+
+/******************** GALLERY STYLES ********************/
+
+figure {
+	display: inline-block;
+	background-color: #FFC200;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	width: 200px;
+	height: 400px;
+	overflow: hidden;
+}
+
+figure img {
+	overflow: hidden;
+	height: 200px;
+	min-width: 200px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+figure img:hover {
+	opacity: .5;
+	border-bottom: 2px solid #A37B03;
+}
+		
+figcaption {
+	padding: 20px;
+	font-size: 9pt;
+	text-align: center;
+	line-height: 180%;
+}
+
+/******************** END GALLERY STYLES ********************/
