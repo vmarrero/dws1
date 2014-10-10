@@ -3,15 +3,15 @@
 		*** Name: Vanessa Marrero
 		*** Assignment: Project 2
 		*** Class: Designing for Web Standards I
-		*** Date: August 14, 2014
+		*** Date: October 9, 2014
 
 ********************/
 
 /******************** MAIN PAGE STYLES ********************/
 
 body {
-	font-family: 'Lato', sans-serif;
-	font-size: 11pt;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
 	line-height: 250%;
 	margin: 0px;
 	padding: 0px;
@@ -24,17 +24,17 @@ body {
 	padding: 0px 50px;
 	text-align: left;
 	border: 2px solid #CCCCCC;
-	background-color: #db4699;
+	background-color: #917FED;
 }
 
 #container {
 	padding: 15px;
 	border: 2px solid #CCCCCC;
 	text-align: center;
-	background-color: #0099d8;
+	background-color: #FFEFAA;
 }
 
-#intro, #hist, #modern, #media, #stats, #idioms, #gallery {
+#intro, #overview, #history, #materials, #technique, #tone, #formandprop, #perspective, #artistry, #drawingprocess, #gallery {
 	background-color: #FFFFFF;
 	border: 2px solid #CCCCCC;
 	border-radius: 25px;
@@ -45,7 +45,13 @@ body {
 }
 
 #intro {
-	margin-top: 40px;
+	margin-top: 10px;
+}
+
+#intro blockquote {
+	font-size: 20px;
+	line-height: 180%;
+	color: #666666;
 }
 
 div p {
@@ -62,7 +68,7 @@ div p.note {
 	margin: 0px auto;
 	margin-bottom: 20px;
 	padding: 20px;
-	font-size: 11pt;
+	font-size: 11px;
 	width: 50%;
 	line-height: 150%;
 }
@@ -78,45 +84,48 @@ div ol {
 #nav {
 	text-transform: uppercase;
 	width: 100%;
+	text-align: center;
+	font-weight: bold;
 }
 
 #nav ul {
 	list-style-type: none;
 	margin: 0px auto;
 	padding: 0px;
-	display: block;
+	width: 100%;
+	text-align: center;
 }
 
 #nav li {
 	display: inline-block;
 	padding: 0px;
-	line-height:455%;
+	line-height: 600%;
 	margin: 0px;
-	text-align: left;
-	width: auto;
+	font-size: 13px;
+	text-align: center;
 }
 
 #nav a:link {
 	text-decoration: none;
-	color: #888888;
-	line-height:100%;
-	padding: 20px;
+	color: #2BC6B1;
+	padding: 25px;
 	background-color: #FFFFFF;
 	border-radius: 25px;
 	margin-right: 5px;
+	width: 100%;
 }
 
 #nav a:visited {
-	color: #888888;
+	color: #2BC6B1;
 }
 
 #nav a:hover {
 	color: #FFFFFF;
-	background-color: #DB4699;
+	background-color: #917FED;
 }
 
 #nav a:active {
-	color: #0099D8;
+	color: #FFFFFF;
 }
 
 /******************** END MAIN NAV STYLES ********************/
@@ -124,40 +133,33 @@ div ol {
 /******************** HEADER STYLES ********************/
 
 h1 {
-	font-family: 'Lobster Two', cursive;
-	font-size: 36pt;
-	line-height: 125%;
-	color: #FFC200;
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 150px;
+	color: #FF708F;
 	text-align: center;
 	text-shadow: 2px 2px 2px #A37B03;
 }
 
 h2 {
-	font-size: 18pt;
+	font-size: 18px;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	background-color: #00B7B1;
+	background-color: #2BC6B1;
 	padding: 15px;
+	margin-top: 0px;
+	border-radius: 25px 25px 0px 0px;
+	box-shadow: 0px 3px 5px #888888;
 }
 
 h3 {
-	font-size: 16pt;
+	font-size: 16px;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	background-color: #68AD00;
+	background-color: #789ED6;
 	padding: 15px;
 	width: 50%;
 	border-radius: 0px 25px 25px 0px;
-}
-
-h4 {
-	font-size: 12pt;
-	color: #Ffffff;
-	text-transform: uppercase;
-	background-color: #f26a36;
-	padding: 15px;
-	width: 30%;
-	border-radius: 0px 25px 25px 0px;
+	box-shadow: 0px 3px 5px #888888;
 }
 
 /******************** END HEADER STYLES ********************/
@@ -183,14 +185,13 @@ figure img {
 	border-bottom: 2px solid #CCCCCC;
 }
 
-figure img:hover {
+figure a:hover {
 	opacity: .5;
-	border-bottom: 2px solid #A37B03;
 }
 		
 figcaption {
 	padding: 20px;
-	font-size: 9pt;
+	font-size: 11px;
 	text-align: center;
 	line-height: 180%;
 }
