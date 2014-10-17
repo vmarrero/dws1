@@ -1,0 +1,226 @@
+/******************** 
+
+		*** Name: Vanessa Marrero
+		*** Assignment: Project 3
+		*** Class: Designing for Web Standards I
+		*** Date: October 16, 2014
+
+********************/
+
+/******************** MAIN PAGE STYLES ********************/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.786em;
+	line-height: 250%;
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	background-size: 100% auto;
+}
+
+#wrapper {
+	margin: 0% auto;
+	padding: 0% 5%;
+	text-align: left;
+	border: 2px solid #CCCCCC;
+	background-color: #917FED;
+	background-image: url('../images/royal-rug.png'); 
+	background-repeat: repeat;
+	background-position: top left;
+    /* img src = http://www.dinpattern.com/2014/01/16/royal-rug/ */
+}
+
+#container {
+	padding: 2%;
+	border: 2px solid #CCCCCC;
+	text-align: center;
+	background-color: #FFEFAA;
+	overflow: auto;
+}
+
+#left-side {
+	float: left;
+	width: 63%;
+	margin-left: 2%; 
+	}
+	
+#right-side {
+	float: right;
+	width: 30%;
+	margin-right: 2%; 
+	}
+	
+#clear {	
+	clear: both;
+}
+
+#intro, #overview, #history, #materials, #technique, #tone, #formandprop, #perspective, #artistry, #drawingprocess, #gallery {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	box-shadow: 3px 3px 10px #888888;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+#intro blockquote {
+	font-size: 1.571em;
+	line-height: 180%;
+	color: #666666;
+}
+
+#gallery {
+	background: #FFFFFF; /* Old browsers */
+	background: -moz-linear-gradient(top,  #FFFFFF 0%, #D6DEE9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#D6DEE9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #FFFFFF 0%,#D6DEE9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #FFFFFF 0%,#D6DEE9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 0%,#D6DEE9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #FFFFFF 0%,#D6DEE9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#d6dee9',GradientType=0 ); /* IE6-9 */
+	overflow: auto;
+}
+
+div p {
+	margin: 3%;
+	text-align: justify;
+	font-weight: normal;
+	font-style: normal;
+}
+
+div ol {
+	text-align: left;
+}
+
+/******************** END MAIN PAGE STYLES ********************/
+
+/******************** MAIN NAV STYLES ********************/
+
+#nav {
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0% auto;
+	padding: 0%;
+	width: 100%;
+	text-align: center;
+}
+
+#nav li {
+	display: inline-block;
+	padding: 0px;
+	line-height: 600%;
+	margin: 0%;
+	font-size: 1em;
+	text-align: center;
+}
+
+#nav a:link {
+	text-decoration: none;
+	color: #2BC6B1;
+	padding: 25px;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+	margin-right: 5%;
+	width: 100%;
+}
+
+#nav a:visited {
+	color: #2BC6B1;
+}
+
+#nav a:hover {
+	color: #FFFFFF;
+	background-color: #917FED;
+}
+
+#nav a:active {
+	color: #FFFFFF;
+}
+
+/******************** END MAIN NAV STYLES ********************/
+
+/******************** HEADER STYLES ********************/
+
+#art {
+    background-image: url('../images/art.png'); 
+    background-repeat: no-repeat;
+    height: 60px;
+    background-position: 25%;
+    padding-top: 60px;
+    /* img src = https://www.iconfinder.com/search/?q=art&price=free */
+}
+
+h1 {
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 14em;
+	line-height: 90%;
+	color: #FF708F;
+	text-align: center;
+	text-shadow: 2px 2px 2px #A37B03;
+}
+
+h2 {
+	font-size: 1.357em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: #2BC6B1;
+	padding: 15px;
+	margin-top: 0px;
+	border-radius: 25px 25px 0px 0px;
+	box-shadow: 0px 3px 5px #888888;
+}
+
+h3 {
+	font-size: 1.214em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: #789ED6;
+	padding: 15px;
+	width: 50%;
+	border-radius: 0px 25px 25px 0px;
+	box-shadow: 0px 3px 5px #888888;
+}
+
+/******************** END HEADER STYLES ********************/
+
+/******************** GALLERY STYLES ********************/
+
+figure {
+	display: inline-block;
+	background-color: #FFC200;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	width: 55%;
+	height: 400px;
+	overflow: hidden;
+}
+
+figure img {
+	overflow: hidden;
+	height: 200px;
+	min-width: 200px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+figure a:hover {
+	opacity: .5;
+}
+		
+figcaption {
+	padding: 2%;
+	font-size: 0.857em;
+	text-align: center;
+	line-height: 180%;
+}
+
+/******************** END GALLERY STYLES ********************/
